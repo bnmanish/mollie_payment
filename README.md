@@ -1,1 +1,1 @@
-# mollie_payment
+#Mollie Payment Gateway
