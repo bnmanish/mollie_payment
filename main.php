@@ -2,7 +2,7 @@
 require 'vendor/autoload.php';
 
 $mollie = new \Mollie\Api\MollieApiClient();
-$mollie->setApiKey('test_Avt5e6RDfA3htE6gwv6Bw4Pu5EsaCs');
+$mollie->setApiKey('API_KEY');
 
 $payment = $mollie->payments->create([
     "amount" => [
